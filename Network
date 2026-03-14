@@ -1,0 +1,8 @@
+--------------------------------------------------------------------------------------------------------------------------
+Subdomain: a prefix added to a root domain to create a distinct, separate section of a website.
+--------------------------------------------------------------------------------------------------------------------------
+---DNS Records---
+A: Maps a domain name to an IPv4 address.
+AAAA: Maps a domain name to an IPv6 address.
+CNAME: Maps an alias or subdomain to a canonical domain name
+PTR:  Resolves an IP address to a domain name
