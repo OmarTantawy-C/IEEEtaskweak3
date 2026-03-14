@@ -1,0 +1,21 @@
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+nmap (Network Mapper) is a network discovery and security auditing tool used to scan networks and identify devices, services, and potential vulnerabilities
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+-sS: TCP SYN Scan Sends SYN packet but does not complete the TCP handshake making it faster and harder to detect.
+-sT: TCP Connect Scan Completes the TCP three-way handshake.
+-sU: UDP Scan Scans UDP ports.
+-p: Specify Ports Allows scanning specific ports or ranges.
+-O: Operating System Detection Attempts to determine the target OS.
+-sV: Service Version Detection Identifies versions of services running on open ports.
+-A: Aggressive Scan Enables several features.
+-T: Timing Template Controls scan speed.
+-Pn: Skip Host Discovery.
+-oN: Save Output to a file.
+-sL: lists the targets to be scanned without sending any packets to them.
+-sn: Disables port scanning and only performs host discovery.
+-F: Scan the most common 100 ports on a single target.
+-sn: Discover what's alive on your network.
+-f: Requested scan (including ping scans) use tiny fragmented IP packets. Harder for packet filters.
+-D: Scan from spoofed IPs.
+-mtu: set your own offset size.
+-sA: Tell you whether a firewall is statefully inspecting traffic
